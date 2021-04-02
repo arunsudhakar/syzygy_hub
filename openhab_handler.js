@@ -3,7 +3,7 @@ const mqtt = require('mqtt')
 
 const { exec } = require("child_process");
 
-const client = mqtt.connect('mqtt://{HOST}')
+const client = mqtt.connect('mqtt://localhost')
 var commandTopic = 'cmnd/system'
 
 client.on('connect', () => {
