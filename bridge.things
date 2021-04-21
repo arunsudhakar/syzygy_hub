@@ -1,6 +1,6 @@
 Bridge mqtt:broker:localhost "MQTT Broker: Localhost"
 [
-    host="{HOST}",
+    host="localhost",
     port=1883,
     username="",
     password=""
